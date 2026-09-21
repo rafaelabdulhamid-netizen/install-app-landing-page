@@ -1,0 +1,31 @@
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #303236;
+  background: #f5f6fb;
+  font-synthesis: none;
+}
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+.page-shell { width: min(100%, 760px); margin: 0 auto; padding: 38px 24px 30px; text-align: center; }
+.hero { padding: 8px 0 28px; }
+.app-icon { width: 116px; height: 116px; margin: 0 auto 24px; display: grid; place-items: center; border-radius: 30px; color: #fff; font-size: 58px; background: linear-gradient(145deg, #46a2ff, #0878ef); box-shadow: 0 12px 26px #0878ef35; }
+.eyebrow { margin: 0 0 8px; color: #0878ef; font-size: 13px; font-weight: 800; letter-spacing: .16em; }
+h1 { margin: 0; font-size: clamp(42px, 10vw, 72px); line-height: 1.05; letter-spacing: -.04em; }
+.downloads { margin: 30px 0 0; color: #686b70; font-size: clamp(22px, 5vw, 32px); }
+.downloads strong { color: #0878ef; font-weight: 700; }
+.notice { margin: 22px 0; border: 2px solid; border-radius: 22px; padding: 25px 28px; font-size: clamp(19px, 4vw, 28px); line-height: 1.5; }
+.notice p { margin: 0; }
+.notice-blue { color: #0563c9; border-color: #7bc9ff; background: #e7f6ff; }
+.notice-green { color: #247d2e; border-color: #43ae4c; background: #eef9ec; }
+.check { display: inline-grid; place-items: center; width: 34px; height: 34px; margin-right: 8px; border-radius: 9px; color: white; background: #0ab51e; font-weight: 900; }
+.install-section { padding: 13px 0 10px; }
+.instruction { margin: 0 0 30px; font-size: clamp(21px, 5vw, 32px); }
+.install-button { border: 0; border-radius: 25px; padding: 21px 52px; color: white; background: #087ff5; box-shadow: 0 9px 18px #087ff540; font: inherit; font-size: clamp(25px, 6vw, 38px); cursor: pointer; transition: transform .15s, background .15s; }
+.install-button:hover { background: #066bd0; transform: translateY(-2px); }
+.install-button:focus-visible { outline: 4px solid #9dd5ff; outline-offset: 4px; }
+.status { min-height: 24px; margin: 17px 0 0; color: #62656a; font-size: 16px; }
+.help-card { margin-top: 25px; padding: 22px 24px; text-align: left; border-radius: 18px; background: white; box-shadow: 0 5px 18px #17233b0d; color: #555960; line-height: 1.5; }
+.help-card h2 { margin: 0 0 12px; color: #303236; font-size: 22px; }
+.help-card p { margin: 8px 0; }
+footer { margin-top: 25px; color: #858990; font-size: 13px; }
+@media (max-width: 480px) { .page-shell { padding: 28px 16px; } .notice { padding: 20px 17px; border-radius: 18px; } .install-button { width: 82%; } }
